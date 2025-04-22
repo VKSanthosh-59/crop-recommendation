@@ -6,7 +6,7 @@ This web-based application recommends the most suitable crop to grow based on ke
 ## Live Demo
 
 Access the deployed application here:  
-https://VKSanthosh-59-crop-recommendation.streamlit.app/
+https://crop-recommendation-dzhu4edtbrlfwqkt3pjzay.streamlit.app/
 
 ## Technologies Used
 
