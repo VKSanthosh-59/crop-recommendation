@@ -1,11 +1,12 @@
 import streamlit as st
 import numpy as np
-import pickle
 import os
+import pickle
 
-# Load trained model with reliable path for Streamlit Cloud
+# ✅ Load trained model from the same directory
 model_path = os.path.join(os.path.dirname(__file__), 'crop_model.pkl')
 model = pickle.load(open(model_path, 'rb'))
+
 
 # Page config
 st.set_page_config(page_title="🌾 Crop Recommendation", page_icon="🌿")
